@@ -32,4 +32,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run tests
       run: |
-        .github/workflows/Part1/test_PEP_right_or_wrong.sh
+        python -m pytest -sxvv
