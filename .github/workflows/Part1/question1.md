@@ -9,23 +9,23 @@ Which of the below alignments are correct?
 
 - [x] b
 
-        abs_area = (area_A + area_B 
+        abs_area = (area_A + area_B
             + area_C + area_D)
 
 - [ ] c
 
-        result = my_function(area_A, area_B, 
+        result = my_function(area_A, area_B,
             area_C, area_D)
 
 - [x] d
 
-        result = my_function(area_A, area_B, 
+        result = my_function(area_A, area_B,
                              area_C, area_D)
 
 - [x] e
 
         result = my_function(
-            area_A, area_B, 
+            area_A, area_B,
             area_C, area_D
             )
 
