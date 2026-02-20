@@ -1,4 +1,3 @@
-import os
 import subprocess
 from pathlib import Path
 import pytest
@@ -22,7 +21,7 @@ COMMANDS = ["grep -A 30 \"# 1. Code alignment\"",
 def get_path():
     # Get the repository directory
     current_dir = Path(__file__).resolve().parents[1]
-    input_file = current_dir / "chapter1" / "PEP_right_or_wrong.md"
+    input_file = current_dir / "README.md"
     reference_file_path = current_dir / ".github" / "workflows" / "Part1"
     return input_file, reference_file_path
 
